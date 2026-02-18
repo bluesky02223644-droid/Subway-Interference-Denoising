@@ -59,6 +59,17 @@ ls -lh checkpoints/best_residual_model.pth
 
 The pre-trained model is provided for **academic research purposes only**.
 
+Project Description: > This repository provides the implementation of a lightweight identification-driven framework for geomagnetic subway interference mitigation, as described in our paper.
+
+Key Features:
+
+TinyCNN for real-time interference identification.
+
+ResidualCNN for frequency-targeted selective denoising.
+
+Adaptive boundary handling for continuous multi-day observations.
+
 For commercial use or redistribution, please contact:
 
 - Email: <huoqiaoling22@outlook.com>
+
