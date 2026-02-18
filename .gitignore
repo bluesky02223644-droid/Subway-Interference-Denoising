@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data (too large for GitHub)
+data/vmd_pseudo_labels/*.npz
+data/raw/
+data/processed/
+
+# Model Checkpoints (large files)
+checkpoints/**/*.pth
+checkpoints/**/*.pt
+*.pth
+*.pt
+
+# Training Logs
+training_log.txt
+*.log
+
+# Results (generated files)
+results/
+frequency_analysis_results/
+*.png
+*.jpg
+*.pdf
+
+# CSV outputs
+*.csv
+!val_index.csv
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Batch/Shell scripts (platform-specific)
+*.bat
+*.sh
+
+# Config files with sensitive paths
+config.ini
+
+# Large archives
+*.npz
+*.zip
+*.tar.gz
+*.rar
+
+# Specific large folders
+训练成果归档_20251030/
+研究报告_20241031/
+
+# Keep essential example files
+!example_data.npz
+!README*.md
+!requirements.txt
