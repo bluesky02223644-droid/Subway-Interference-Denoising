@@ -40,11 +40,11 @@ data/vmd_pseudo_labels/*.npz
 data/raw/
 data/processed/
 
-# Model Checkpoints (large files)
-checkpoints/**/*.pth
-checkpoints/**/*.pt
-*.pth
-*.pt
+# Model Checkpoints — allow pre-trained weights in checkpoints/ folder
+# (DO NOT ignore checkpoints/*.pth — they must be committed for reproducibility)
+# Only ignore loose .pth files outside checkpoints/
+# *.pth
+# *.pt
 
 # Training Logs
 training_log.txt
@@ -86,11 +86,12 @@ config.ini
 *.tar.gz
 *.rar
 
-# Specific large folders
-训练成果归档_20251030/
-研究报告_20241031/
-
 # Keep essential example files
+!sample_data.npz
 !example_data.npz
 !README*.md
 !requirements.txt
+
+# Keep the processed reproduction data (small; reproduces the paper's figures/tables)
+!processed_data/*.csv
+!processed_data/*.npz
